@@ -3,7 +3,7 @@
     <div class="container has-text-centered">
       <h1 class="title">Contact Me</h1>
       <p>Do you like what you see?</p>
-      <form name="contact" method="POST" netlify>
+      <form name="contact" action="/success" method="POST" netlify>
       <p>
         <label>Your Name: <input type="text" name="name"></label>
       </p>
